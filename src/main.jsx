@@ -13,9 +13,7 @@ import "swiper/css/autoplay";
 import "animate.css";
 
 createRoot(document.getElementById('root')).render(
-<StrictMode>
-    <BrowserRouter>
-    <App />
-    </BrowserRouter>
+<StrictMode>    
+    <App />    
 </StrictMode>,
 )
