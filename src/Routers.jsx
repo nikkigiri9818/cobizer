@@ -28,7 +28,7 @@ function AppRouter(){
             <Route path="Testimonial" element={<TestimonialPage />}/>
             <Route path="faq" element={<FaqPage />}/>
             <Route path="blog" element={<BlogPage />}/>
-            <Route path="single_post" element={<SinglePostPage />}/>
+            <Route path="blog/:slug" element={<SinglePostPage />}/>
             <Route path="contact" element={<ContactPage />}/>
             <Route path="404_page" element={<NotFoundPage />}/>
             <Route path="*" element={<NotFoundPage />}/>

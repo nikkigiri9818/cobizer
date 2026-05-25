@@ -1,42 +1,70 @@
 import React from "react";
-import useAnimateOnScroll from "../Hooks/useAnimateOnScroll";
+import AnimateOnScroll from "../Hooks/AnimateOnScroll";
 
 function BlogCard({ blog }) {
-    useAnimateOnScroll();
     const handleClick = () => {
-        window.location.href = blog.link;
+        window.location.href = `/blog/${blog.slug}`;
     };
 
     return (
         <div className="col">
-            <div
-                className="card card-blog animate-box animate__animated"
-                data-animate="animate__fadeInUp"
-                onClick={handleClick}
-            >
-                <div className="blog-image">
-                    <img src={blog.image} alt="Blog" />
-                </div>
-                <div className="card-body">
-                    <div className="d-flex flex-row gspace-2">
-                        <div className="d-flex flex-row gspace-1 align-items-center">
-                            <i className="fa-solid fa-calendar accent-color"></i>
-                            <span className="meta-data">{blog.date}</span>
-                        </div>
-                        <div className="d-flex flex-row gspace-1 align-items-center">
-                            <i className="fa-solid fa-folder accent-color"></i>
-                            <span className="meta-data">{blog.category}</span>
-                        </div>
+            <AnimateOnScroll animation="fadeInUp" speed="normal">
+                <div className="card card-blog" onClick={handleClick}>
+
+                    {/* IMAGE */}
+                    <div className="blog-image">
+                        <img
+                            src={
+                                blog._embedded?.["wp:featuredmedia"]?.[0]
+                                    ?.source_url || ""
+                            }
+                            alt="Blog"
+                        />
                     </div>
-                    <a href={blog.link} className="blog-link">
-                        {blog.title}
-                    </a>
-                    <p>{blog.excerpt}</p>
-                    <a href={blog.link} className="read-more">
-                        Read More
-                    </a>
+
+                    <div className="card-body">
+
+                        {/* DATE */}
+                        <div className="d-flex flex-row gspace-2">
+                            <div className="d-flex flex-row gspace-1 align-items-center">
+                                <i className="fa-solid fa-calendar accent-color"></i>
+                                <span className="meta-data">
+                                    {new Date(blog.date).toDateString()}
+                                </span>
+                            </div>
+
+                            {/* CATEGORY (basic fallback) */}
+                            <div className="d-flex flex-row gspace-1 align-items-center">
+                                <i className="fa-solid fa-folder accent-color"></i>
+                                <span className="meta-data">
+                                    Blog
+                                </span>
+                            </div>
+                        </div>
+
+                        {/* TITLE */}
+                        <a href={`/blog/${blog.slug}`} className="blog-link">
+                            <div
+                                dangerouslySetInnerHTML={{
+                                    __html: blog.title.rendered,
+                                }}
+                            />
+                        </a>
+
+                        {/* EXCERPT */}
+                        <p
+                            dangerouslySetInnerHTML={{
+                                __html: blog.excerpt.rendered,
+                            }}
+                        />
+
+                        <a href={`/blog/${blog.slug}`} className="read-more">
+                            Read More
+                        </a>
+
+                    </div>
                 </div>
-            </div>
+            </AnimateOnScroll>
         </div>
     );
 }
