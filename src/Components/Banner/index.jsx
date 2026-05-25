@@ -108,7 +108,7 @@ function BannerHomeSection() {
                         <div className="d-flex flex-column gspace-2">
                             <AnimateOnScroll animation="fadeInLeft" speed="normal">
                                 <h1 className="title-heading-banner">
-                                    Amplify Your Brand with Cutting-Edge Digital Marketings divyaaa  
+                                Lorem ipsum dolor sit amet.
                                 </h1>
                             </AnimateOnScroll>
                             <div className="banner-heading">
