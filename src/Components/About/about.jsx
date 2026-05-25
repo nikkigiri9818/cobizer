@@ -28,7 +28,7 @@ function AboutSection(){
                                                     <span className="counter" data-target="21"></span>
                                                     <span className="counter-detail">+</span>
                                                 </div>
-                                                <h6>Years of Experience on Digital Marketing Services</h6>
+                                                <h6>4+ Years of Experience on Digital Marketing Services</h6>
                                             </div>
                                         </AnimateOnScroll>
                                     </div>
