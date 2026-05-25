@@ -123,7 +123,6 @@ function BannerHomeSection() {
                                             </p>
                                         </div>
                                     </div>
-                                    </div>
                                 </AnimateOnScroll>
 
                                 <AnimateOnScroll animation="fadeInRight" speed="normal">
