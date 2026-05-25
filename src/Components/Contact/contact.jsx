@@ -11,7 +11,7 @@ const ContactSection = () => {
                         <div className="card contact-title">
                             <div className="sub-heading">
                                 <i className="fa-regular fa-circle-dot"></i>
-                                <span>Reach out to us</span>
+                                <span>Feel Free to contact us</span>
                             </div>
                             <h2 className="title-heading">Get in Touch</h2>
                             <p>
