@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://nidhisinghmackupacademy.com/wp-json/wp/v2",
+  baseURL: "https://cms.nidhisinghmackupacademy.com/wp-json/wp/v2",
 });
 
 export const getPosts = async () => {
