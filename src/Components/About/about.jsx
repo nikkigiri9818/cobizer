@@ -11,7 +11,7 @@ function AboutSection(){
                         <div className="image-container about-img">
                             <AnimateOnScroll animation="fadeInUp" speed="normal">
                             <img
-                                src="/assets/images/dummy-img-600x400.jpg"
+                                src="/assets/images/about-us.jpg"
                                 alt="About Us Image"
                                 className="img-fluid"
                             />
@@ -28,7 +28,7 @@ function AboutSection(){
                                                     <span className="counter" data-target="21"></span>
                                                     <span className="counter-detail">+</span>
                                                 </div>
-                                                <h6>4+ Years of Experience on Digital Marketing Services</h6>
+                                                <h6>5+ Years of Experience on Digital Marketing Services</h6>
                                             </div>
                                         </AnimateOnScroll>
                                     </div>
@@ -54,9 +54,8 @@ function AboutSection(){
                             </AnimateOnScroll>
 
                             <p>
-                                At Marko, we specialize in crafting innovative digital marketing strategies
-                                that drive real business growth. Our about ensures your brand stays ahead
-                                in the competitive digital landscape.
+                            At Cobizzer, we specialize in delivering result-driven digital marketing solutions
+                            that help businesses grow, attract more customers, and strengthen their online presence.
                             </p>
                             <p>
                                 Get to know the passionate team behind the strategies, the values that

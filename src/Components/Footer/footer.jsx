@@ -15,7 +15,7 @@ const Footer = () => {
                                     </div>
                                     <h4>Driving Digital Growth with Innovation & Strategy</h4>
                                     <p>
-                                    Lorem ipsum dolor si consectetur adipiscing elit ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo.
+                                    Cobizzer is a Digital Marketing agency that specializes in helping Businesses of all sizes to increase their online visibility and grow their brand.
                                     </p>
                                 </div>
                             </div>
@@ -52,30 +52,30 @@ const Footer = () => {
                                 <div className="footer-contact-container">
                                     <h5>Contact Info</h5>
                                     <ul className="contact-list">
-                                        <li>hello@markoagency.com</li>
-                                        <li>+1 234 567 890</li>
-                                        <li>123 Digital Street, New York, USA</li>
+                                        <a class="header-num" href="tel:7220018888"><li>+91- 7220018888</li></a>
+                                        <a class="header-num" href="mailto:info@cobizzer.com"><li>info@cobizzer.com</li></a>
+                                        <li>1st Floor, 104/72, Vijay Path, Sector 122, Sector 101, Mansarovar, Jaipur, Rajasthan 302020</li>
                                     </ul>
                                     <div className="d-flex flex-column gspace-1">
                                         <h5>Social Media</h5>
                                         <div className="social-container">
                                             <div className="social-item-wrapper">
-                                                <a href="https://facebook.com" className="social-item">
+                                                <a href="https://www.facebook.com/profile.php?id=100092369057035" className="social-item">
                                                     <i className="fa-brands fa-facebook"></i>
                                                 </a>
                                             </div>
                                             <div className="social-item-wrapper">
-                                                <a href="https://youtube.com" className="social-item">
+                                                <a href="https://www.youtube.com/@DigiRoket" className="social-item">
                                                     <i className="fa-brands fa-youtube"></i>
                                                 </a>
                                             </div>
                                             <div className="social-item-wrapper">
-                                                <a href="https://instagram.com" className="social-item">
+                                                <a href="https://www.instagram.com/cobizzerdigitalmarketing?igsh=MWpuMDZldzBkMzA4eg==" className="social-item">
                                                     <i className="fa-brands fa-instagram"></i>
                                                 </a>
                                             </div>
                                             <div className="social-item-wrapper">
-                                                <a href="https://linkedin.com" className="social-item">
+                                                <a href="http://www.linkedin.com/in/deepak-khandelwal-432552139" className="social-item">
                                                     <i className="fa-brands fa-linkedin"></i>
                                                 </a>
                                             </div>
@@ -89,7 +89,7 @@ const Footer = () => {
                     </div>
 
                     <div className="copyright-container">
-                        <span className="copyright">© 2025 Marko. Fox Creation All Rights Reserved.</span>
+                        <span className="copyright">© 2026 Cobizzer | All Rights Reserved.</span>
                         <div className="d-flex flex-row gspace-2">
                             <a href="#" className="legal-link">Terms of Service</a>
                             <a href="#" className="legal-link">Privacy Policy</a>

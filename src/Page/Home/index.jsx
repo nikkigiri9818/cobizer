@@ -13,11 +13,12 @@ import PricingPlanSection from "../../Components/Pricing/Pricing";
 import PartnershipSection from "../../Components/Partnership/Partnership";
 import NewsletterSection from "../../Components/Form/Newsletter";
 import BlogSection from "../../Components/Blog/blog";
-
+import CustomImage from "../../Components/Custom/customImage";
+ 
 function HomePage(){
     return(
         <>
-            <HeadTitle title="Home - Marko - Digital Marketing Agency" />
+            <HeadTitle title="Best Digital Marketing Company in Jaipur, India – Cobizzer" />
             <BannerHomeSection />
             <ExpertiseSection />
             <PartnershipSection />

@@ -15,7 +15,7 @@ const ContactSection = () => {
                             </div>
                             <h2 className="title-heading">Get in Touch</h2>
                             <p>
-                            Reach out to us for tailored digital solutions that drive results sollicitudin nec.
+                           Contact Cobizzer today and let's build a strategy that helps your business grow online.
                             </p>
                             <div className="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
                                 <div>
@@ -27,7 +27,7 @@ const ContactSection = () => {
                                 </div>
                                 <div className="d-grid">
                                     <span>Phone Number</span>
-                                    <h5>+1 (62) 987 7543</h5>
+                                    <h5>+91- 7220018888</h5>
                                 </div>
                             </div>
                             <div className="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
@@ -40,7 +40,7 @@ const ContactSection = () => {
                                 </div>
                                 <div className="d-grid">
                                     <span>Email Address</span>
-                                    <h5>hello@markoagency.com</h5>
+                                    <a class="header-num" href="mailto:info@cobizzer.com"><h5>info@cobizzer.com</h5></a>
                                 </div>
                             </div>
                             <div className="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
@@ -53,7 +53,8 @@ const ContactSection = () => {
                                 </div>
                                 <div className="d-grid">
                                     <span>Office Address</span>
-                                    <h5>Marko HQ - 902 Digital Lane, San Francisco, CA 94110, USA</h5>
+                                    <h5> 1st Floor, 104/72, Vijay Path, Sector 122, Sector 101,
+                                            Mansarovar, Jaipur, Rajasthan 302020</h5>
                                 </div>
                             </div>
                         </div>

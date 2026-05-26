@@ -108,7 +108,7 @@ function BannerHomeSection() {
                         <div className="d-flex flex-column gspace-2">
                             <AnimateOnScroll animation="fadeInLeft" speed="normal">
                                 <h1 className="title-heading-banner">
-                               Divya test heading
+                               Cobizzer - Jaipur’s Trusted Digital Marketing Agency
                                 </h1>
                             </AnimateOnScroll>
                             <div className="banner-heading">
@@ -128,9 +128,9 @@ function BannerHomeSection() {
                                 <AnimateOnScroll animation="fadeInRight" speed="normal">
                                     <div className="banner-content order-lg-2 order-1">
                                         <p>
-                                            Marko empowers businesses to grow online with data driven digital
-                                            marketing, innovative branding, and performance focused strategies
-                                            trusted by top brands lorem ipsum dolor sit amet consectetur.
+                                        Most digital marketing agencies focus on likes and shares.
+                                        Cobizzer focuses on real business results—growth, leads, conversions,
+                                        and revenue—helping businesses grow online with measurable success.
                                         </p>
                                         <div className="d-flex flex-md-row flex-column justify-content-center justify-content-lg-start align-self-center align-self-lg-start gspace-3">
                                             <a href="./about" className="btn btn-accent">

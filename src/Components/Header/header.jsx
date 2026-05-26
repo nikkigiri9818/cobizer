@@ -179,7 +179,7 @@ return (
                         <div className="icon-circle">
                             <i className="fa-solid fa-phone-volume"></i>
                         </div>
-                        <h6>+1 (62) 987 7543</h6>
+                        <a className ="header-num" href="tel:7220018888"><h6>+91- 7220018888</h6></a>
                     </div>
                 </div>
             </div>
