@@ -31,8 +31,8 @@ function ChooseUsAboutSection(){
                                             <i className="fa-regular fa-circle-dot"></i>
                                             <span>Our Core Values</span>
                                         </div>
-                                        <h2 className="title-heading">The Principles That Define Us</h2>
-                                        <p className="mb-0">In the fast-paced digital world, choosing the right marketing partner makes all the difference. At Marko, we don’t just create campaigns—we craft strategies that deliver measurable success.</p>
+                                        <h2 className="title-heading">The Principles That Drive Cobizzer</h2>
+                                        <p className="mb-0">At Cobizzer, we focus on delivering measurable results that help businesses grow, connect with their audience, and achieve long-term success.</p>
                                     </div>
                                 </AnimateOnScroll>
                                 <div className="image-container">
@@ -44,7 +44,7 @@ function ChooseUsAboutSection(){
                                             <div className="card-chooseus-cta-wrapper">
                                                 <AnimateOnScroll animation="fadeInUp" speed="normal">
                                                     <div className="card card-chooseus-cta">
-                                                        <h5>Partner with Marko & take your brand to the next level.</h5>
+                                                        <h5>Partner with Cobizzer and take your business to the next level.</h5>
                                                         <div className="link-wrapper">
                                                             <a href="./contact">Let's Talk Strategy</a>
                                                             <i className="fa-solid fa-circle-arrow-right"></i>

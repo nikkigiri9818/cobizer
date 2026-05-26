@@ -13,7 +13,7 @@ function ExpertiseSection(){
                             <div className="image-container expertise-img">
                                 <AnimateOnScroll animation="fadeInUp" speed="normal">
                                     <img
-                                        src="/assets/images/dummy-img-600x400.jpg"
+                                        src="/assets/images/cobizzer-home.jpg"
                                         alt="Expertise Image"
                                         className="img-fluid"
                                     />
@@ -42,18 +42,17 @@ function ExpertiseSection(){
                             <AnimateOnScroll animation="fadeInRight" speed="normal">
                                 <div className="sub-heading">
                                     <i className="fa-regular fa-circle-dot"></i>
-                                    <span>Our Expertise</span>
+                                    <span>WHO WE ARE</span>
                                 </div>
                             </AnimateOnScroll>
 
                             <AnimateOnScroll animation="fadeInRight" speed="normal">
                                 <h2 className="title-heading">
-                                    Data Driven Strategies, Measurable Results
+                                    Top Digital Marketing Agency in Jaipur
                                 </h2>
                             </AnimateOnScroll>
                             <p>
-                                At Marko, we specialize in crafting innovative digital marketing strategies that drive real business growth. Our expertise
-                                ensures your brand stays ahead in the competitive digital landscape.
+                                Cobizzer is a team of digital marketing experts dedicated to helping businesses grow. With expertise in SEO, social media marketing, paid ads, and web development, we create strategies that turn visitors into loyal customers.
                             </p>
                             <div className="d-flex flex-column flex-md-row gspace-2">
                                 <div className="expertise-list">
@@ -73,7 +72,7 @@ function ExpertiseSection(){
                                         <div className="d-flex flex-row gspace-2 align-items-center">
                                             <div className="d-flex flex-row align-items-center">
                                             <CounterOnScroll
-                                                target={21}
+                                                target={5}
                                                 suffix="+"
                                                 counterClassName="counter"
                                                 suffixClassName="counter-detail"
@@ -82,7 +81,7 @@ function ExpertiseSection(){
                                             <h6>Years of Experience on Digital Marketing Services</h6>
                                         </div>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit in ex ligula varius at rutrum et finibus sed felis qisque.
+                                           Helping businesses across India grow with result-driven digital marketing solutions.
                                         </p>
                                     </div>
                                 </AnimateOnScroll>

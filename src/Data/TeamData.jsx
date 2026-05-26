@@ -1,8 +1,8 @@
 export const teamData = [
 	{
 		id: 1,
-		name: "Jordan Lee",
-		title: "Head of Creative",
+		name: "Deepak Khandelwal",
+		title: "Co-Founder/Director",
 		image: "/assets/images/dummy-img-600x800.jpg",
 		socials: {
 		facebook: "https://facebook.com",
@@ -12,8 +12,8 @@ export const teamData = [
 	},
 	{
 		id: 2,
-		name: "Chloe Tan",
-		title: "Senior SEO Specialist",
+		name: "Suraj Karnani",
+		title: "Co-Founder /Ad-Expert",
 		image: "/assets/images/dummy-img-600x800.jpg",
 		socials: {
 		facebook: "https://facebook.com",
@@ -23,8 +23,8 @@ export const teamData = [
 	},
 	{
 		id: 3,
-		name: "Daniel Cruz",
-		title: "Performance Marketing Lead",
+		name: "B.L. Saini",
+		title: "Co-Founder /Tech-Expert",
 		image: "/assets/images/dummy-img-600x800.jpg",
 		socials: {
 		facebook: "https://facebook.com",

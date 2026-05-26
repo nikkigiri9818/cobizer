@@ -1493,25 +1493,29 @@ body.lightmode .digital-process-banner{
 /* 17.1 Title Heading */
 .title-heading-banner{
     display: inline-block;
-    -webkit-background-clip: text;
+    color: aliceblue;
+    /* -webkit-background-clip: text;
     background-color: transparent;
     background-image: linear-gradient(340deg, var(--accent-transparent) 30%, var(--primary) 100%);
     -webkit-text-fill-color: transparent;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent; */
 }
 
 .title-heading{
      display: inline-block;
-    -webkit-background-clip: text;
+     color: aliceblue;
+    /* -webkit-background-clip: text;
     background-color: transparent;
     background-image: linear-gradient(284deg, var(--accent-transparent) 3%, var(--primary) 100%);
     -webkit-text-fill-color: transparent;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent; */
 }
-
 body.lightmode .title-heading{
-    background-image: linear-gradient(284deg, var(--primary) 100%, var(--primary) 100%);
+    color: #1f1f1f;
 }
+/* body.lightmode .title-heading{
+    background-image: linear-gradient(284deg, var(--primary) 100%, var(--primary) 100%);
+} */
 
 .banner-heading{
     display: flex;
@@ -2517,21 +2521,21 @@ body.lightmode .case-studies-content::before{
 }
 
 .case-studies-content.local-business{
-    background-image: url('/assets/images/dummy-img-600x400.jpg');
+    background-image: url('/assets/images/cobizzer-home.jpg');
     width: 56.2%;
 }
 
 .case-studies-content.saas-leads{
-    background-image: url('/assets/images/dummy-img-600x400.jpg');
+    background-image: url('/assets/images/cobizzer-home.jpg');
     width: 42%;
 }
 
 .case-studies-content.ecommerce{
-    background-image: url('/assets/images/dummy-img-600x400.jpg');
+    background-image: url('/assets/images/cobizzer-home.jpg');
     width: 42%;
 }
 .case-studies-content.startup-branding{
-    background-image: url('/assets/images/dummy-img-600x400.jpg');
+    background-image: url('/assets/images/cobizzer-home.jpg');
     width: 56.2%;
 }
 
@@ -3067,7 +3071,7 @@ body.lightmode .card-blog{
 /* ================== 35. Guide Components ================== */
 
 .guide-banner{
-    background-image: url('/assets/images/dummy-img-1920x900.jpg');
+    background-image: url('/assets/images/cobizzer-home.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -3508,7 +3512,10 @@ body.lightmode .newsletter-layout{
     text-align: center;
     transition: all 0.3s ease-in-out;
 }
-
+a.header-num { color: #fff; }
+.lightmode a.header-num {
+    color: #1f1f1f;
+}
 /* 41.2 Stars */
 
 .stars{
@@ -4302,7 +4309,7 @@ body.lightmode .cta-service-banner::before{
     margin-bottom: 0px;
 }
 
-.contact-list li{
+.contact-list a.header-num{
     position: relative;
     display: flex;
     flex-direction: row;
@@ -4314,7 +4321,7 @@ body.lightmode .cta-service-banner::before{
     color: var(--primary);
 }
 
-.contact-list li:last-child{
+.contact-list a.header-num:last-child{
     margin-bottom: 0px;
 }
 
