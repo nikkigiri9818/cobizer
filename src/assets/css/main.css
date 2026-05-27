@@ -2800,7 +2800,7 @@ body.lightmode .case-studies-content::before{
 .recent-post{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 30px 30px;
     border: 1px solid var(--accent-color-3);
@@ -2841,6 +2841,11 @@ body.lightmode .case-studies-content::before{
     font-size: var(--font-size-xl);
     color: var(--primary);
     font-weight: var(--font-weight-bold);
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
 }
 
 .meta-data{
@@ -4177,7 +4182,7 @@ body.lightmode .accordion-button:not(.collapsed)::after{
 /* ================== 53. CTA Service Banner Components ================== */
 
 .cta-service-banner{
-    background-image: url('/assets/images/dummy-img-1920x900.jpg');
+    background-image: url('/assets/images/blogCobizzer.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
