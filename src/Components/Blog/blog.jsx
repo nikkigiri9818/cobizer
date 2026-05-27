@@ -2,18 +2,28 @@ import React from "react";
 import BlogCard from "../Card/BlogCard";
 import { useEffect, useState } from "react";
 import { getPosts } from "../../services/api"
+import axios from "axios";
 
 import AnimateOnScroll from "../Hooks/AnimateOnScroll";
 
 function BlogSection() {
     const [posts, setPosts] = useState([]);
 
-    useEffect(() => {
-         getPosts().then((data) => {
-      setPosts(data);
+
+useEffect(() => {
+
+  axios
+    .get("https://cms.nidhisinghmackupacademy.com/wp-json/wp/v2/posts?.embed")
+    .then((response) => {
+      setPosts(response.data);
+    })
+    .catch((error) => {
+      console.log(error);
     });
 
 }, []);
+
+
     return (
         <div className="section">
             <div className="hero-container">
@@ -53,6 +63,7 @@ function BlogSection() {
                         {posts.map((blog) => (
                             <BlogCard key={blog.id} blog={blog} />
                         ))}
+                        
                     </div>
                 </div>
             </div>

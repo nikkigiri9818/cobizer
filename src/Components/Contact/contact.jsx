@@ -40,7 +40,7 @@ const ContactSection = () => {
                                 </div>
                                 <div className="d-grid">
                                     <span>Email Address</span>
-                                    <a class="header-num" href="mailto:info@cobizzer.com"><h5>info@cobizzer.com</h5></a>
+                                    <a className="header-num" href="mailto:info@cobizzer.com"><h5>info@cobizzer.com</h5></a>
                                 </div>
                             </div>
                             <div className="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">

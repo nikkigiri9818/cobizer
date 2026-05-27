@@ -270,6 +270,9 @@
     .contact-list li{
         font-size: var(--font-size-sm);
     }
+    .recent-post{
+        width:50%
+    }
 }
 
 /* 02 Mobile (max-width:: 767px) */

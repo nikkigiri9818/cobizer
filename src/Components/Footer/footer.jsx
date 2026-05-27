@@ -52,8 +52,8 @@ const Footer = () => {
                                 <div className="footer-contact-container">
                                     <h5>Contact Info</h5>
                                     <ul className="contact-list">
-                                        <a class="header-num" href="tel:7220018888"><li>+91- 7220018888</li></a>
-                                        <a class="header-num" href="mailto:info@cobizzer.com"><li>info@cobizzer.com</li></a>
+                                        <a className="header-num" href="tel:7220018888"><li>+91- 7220018888</li></a>
+                                        <a className="header-num" href="mailto:info@cobizzer.com"><li>info@cobizzer.com</li></a>
                                         <li>1st Floor, 104/72, Vijay Path, Sector 122, Sector 101, Mansarovar, Jaipur, Rajasthan 302020</li>
                                     </ul>
                                     <div className="d-flex flex-column gspace-1">

@@ -18,7 +18,7 @@ function BlogCard({ blog }) {
                                 blog._embedded?.["wp:featuredmedia"]?.[0]
                                     ?.source_url || ""
                             }
-                            alt="Blog"
+                            alt={blog.title.rendered}
                         />
                     </div>
 
