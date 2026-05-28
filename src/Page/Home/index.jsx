@@ -14,7 +14,7 @@ import PartnershipSection from "../../Components/Partnership/Partnership";
 import NewsletterSection from "../../Components/Form/Newsletter";
 import BlogSection from "../../Components/Blog/blog";
 import CustomImage from "../../Components/Custom/customImage";
- 
+import TeamSection from "../../Components/Team/Team";
 function HomePage(){
     return(
         <>
@@ -29,7 +29,8 @@ function HomePage(){
             <CaseStudiesSection noPadding={true} />
             <TestimonialSection />
             <DigitalProcessSection />
-            <PricingPlanSection />
+              <TeamSection/>
+            {/* <PricingPlanSection /> */}
             <NewsletterSection />
             <BlogSection />
         </>

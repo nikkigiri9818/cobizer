@@ -7,7 +7,7 @@ import MapsSection from "../../Components/Maps/map";
 function ContactPage(){
     return(
         <>
-            <HeadTitle title="Contact Us - Marko - Digital Marketing Agency" />
+            <HeadTitle title="Contact Us - Cobizzer - Digital Marketing Agency" />
             <BannerInnerSection title="Contact Us" currentPage="Contact Us" />
             <ContactSection />
             <MapsSection />

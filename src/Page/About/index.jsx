@@ -13,8 +13,8 @@ import TestimonialSection from "../../Components/Testimonial/testimonial";
 function AboutPage(){
     return(
         <>
-            <HeadTitle title="About - Marko - Digital Marketing Agency"/>
-            <BannerInnerSection title="About Marko" currentPage="About Us" />
+            <HeadTitle title="About - Cobizzer - Digital Marketing Agency"/>
+            <BannerInnerSection title="About Cobizzer" currentPage="About Us" />
             <AboutSection />
             <PartnershipSection />
             <ChooseUsAboutSection />

@@ -44,9 +44,19 @@ return (
                             <NavLink to="/about" className="nav-link">
                             About
                             </NavLink>
+                        </li>                        
+                        <li className="nav-item">
+                            <NavLink to="/service" className="nav-link">
+                            Services
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/blog" className="nav-link">
+                            Blogs
+                            </NavLink>
                         </li>
 
-                        <li className="nav-item dropdown">
+                        {/* <li className="nav-item dropdown">
                             <a
                             className={`nav-link dropdown-toggle ${
                                 isDropdownActive(["/service", "/single_services"])
@@ -72,9 +82,9 @@ return (
                                     </NavLink>
                                 </li>
                             </ul>
-                        </li>
+                        </li> */}
 
-                        <li className="nav-item dropdown">
+                        {/* <li className="nav-item dropdown">
                             <a
                             className={`nav-link dropdown-toggle ${
                                 isDropdownActive([
@@ -133,10 +143,10 @@ return (
                                 </NavLink>
                             </li>
                             </ul>
-                        </li>
+                        </li> */}
 
                         {/* Archive Dropdown */}
-                        <li className="nav-item dropdown">
+                        {/* <li className="nav-item dropdown">
                             <a
                             className={`nav-link dropdown-toggle ${
                                 isDropdownActive(["/blog", "/single_post"]) ? "active" : ""
@@ -160,7 +170,7 @@ return (
                                     </NavLink>
                                 </li>
                             </ul>
-                        </li>
+                        </li> */}
 
                         <li className="nav-item">
                             <NavLink to="/contact" className="nav-link">

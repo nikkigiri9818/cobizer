@@ -27,7 +27,7 @@ const ContactSection = () => {
                                 </div>
                                 <div className="d-grid">
                                     <span>Phone Number</span>
-                                    <h5>+91- 7220018888</h5>
+                                    <a className="header-num" href="tel:7220018888"><h5>+91- 7220018888</h5></a>
                                 </div>
                             </div>
                             <div className="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">

@@ -20,7 +20,7 @@ const TestimonialCard = ({ name, title, content, rating, image }) => {
             </div>
             <i className="fa-solid fa-3x fa-quote-right accent-color"></i>
         </div>
-        <p className="testimonial-description">“{content}”</p>
+        <p className="testimonial-description">{content}</p>
     </div>
   );
 };

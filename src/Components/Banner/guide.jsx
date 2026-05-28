@@ -10,12 +10,12 @@ function GuideBannerSection(){
                     <div className="hero-container">
                         <AnimateOnScroll animation="fadeInUp" speed="normal">
                             <div className="guide-content">
-                                <div className="guide-video-container">
+                                {/* <div className="guide-video-container">
                                     <VideoButton videoUrl="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1" />
                                     <p>See How We Help Brands Grow</p>
-                                </div>
+                                </div> */}
                                 <div className="d-flex flex-column gspace-2">
-                                    <h3 className="title-heading">Transform Your Business with Marko!</h3>
+                                    <h3 className="title-heading">Transform Your Business with Cobizzer!</h3>
                                     <p>Take your digital marketing to the next level with data-driven strategies and innovative solutions. Let's create something amazing together!</p>
                                 </div>
                             </div>

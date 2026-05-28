@@ -25,7 +25,7 @@ const TestimonialSection = () => {
                                                     <img src="/assets/images/dummy-img-400x400.jpg" alt="Testimonial Reviewer" className="avatar" />
                                                 </div>
                                                 <div className="detail">
-                                                    <h6>2.7k Positive</h6>
+                                                    <h6>100+ Positive</h6>
                                                     <h6>Reviews</h6>
                                                 </div>
                                             </div>

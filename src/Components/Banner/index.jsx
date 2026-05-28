@@ -115,13 +115,13 @@ function BannerHomeSection() {
 
                                 <AnimateOnScroll animation="fadeInUp" speed="normal">
                                     <div className="banner-video-content order-lg-1 order-2">
-                                        <div className="d-flex flex-column flex-lg-row text-lg-start text-center align-items-center gspace-5">
-                                            <VideoButton videoUrl="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1" />
-                                            <p>
-                                                Watch our video reviews and see how businesses achieve success
-                                                with Marko's digital marketing solutions.
-                                            </p>
-                                        </div>
+                                            {/* <div className="d-flex flex-column flex-lg-row text-lg-start text-center align-items-center gspace-5">
+                                                <VideoButton videoUrl="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1" />
+                                                <p>
+                                                    Watch our video reviews and see how businesses achieve success
+                                                    with Marko's digital marketing solutions.
+                                                </p>
+                                            </div> */}
                                     </div>
                                 </AnimateOnScroll>
 
@@ -141,7 +141,7 @@ function BannerHomeSection() {
                                                     <i className="fa-solid fa-arrow-right"></i>
                                                 </div>
                                             </a>
-                                            <div className="banner-reviewer">
+                                            {/* <div className="banner-reviewer">
                                                 <div className="d-flex flex-row align-items-center">
                                                     <img src="/assets/images/dummy-img-400x400.jpg" alt="Reviewer" className="avatar" />
                                                     <img src="/assets/images/dummy-img-400x400.jpg" alt="Reviewer" className="avatar" />
@@ -151,7 +151,7 @@ function BannerHomeSection() {
                                                     <span>2.7k Positive</span>
                                                     <span>Reviews</span>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </AnimateOnScroll>

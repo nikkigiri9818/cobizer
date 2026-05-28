@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 export default function ThemeSwitcher() {
-    const [lightMode, setLightMode] = useState(false);
+    const [lightMode, setLightMode] = useState(true);
 
     useEffect(() => {
         const mode = localStorage.getItem('lightmode');

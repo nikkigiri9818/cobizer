@@ -11,7 +11,9 @@ const Footer = () => {
                             <div className="col col-lg-4">
                                 <div className="footer-logo-container">
                                     <div className="logo-container-footer">
+                                        <a href="/">
                                     <img src="/assets/images/marko-logo.png" alt="Logo" className="site-logo img-fluid" />
+                                    </a>
                                     </div>
                                     <h4>Driving Digital Growth with Innovation & Strategy</h4>
                                     <p>

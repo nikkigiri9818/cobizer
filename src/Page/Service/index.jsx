@@ -9,7 +9,7 @@ import HeadTitle from "../../Components/Head/HeadTitle";
 function ServicePage(){
     return(
         <>
-            <HeadTitle title="Services - Marko - Digital Marketing Agency" />
+            <HeadTitle title="Services - Cobizzer - Digital Marketing Agency" />
             <BannerInnerSection title="Our Services" currentPage="Services" />
             <ServiceSection />
             <GuideBannerSection />

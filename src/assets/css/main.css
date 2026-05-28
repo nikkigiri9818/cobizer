@@ -1611,7 +1611,7 @@ body.lightmode .navbar-icon-wrapper{
 /* 17.4 Avatar Container */
 
 .avatar-container{
-    display: flex;
+    display: none;
     flex-direction: row;
     align-items: center;
     width: 50%;
@@ -1634,14 +1634,14 @@ body.lightmode .navbar-icon-wrapper{
 }
 
 .logo-container{
-    width: 30%;
+    width: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .logo-container img{
-    width: 40%;
+    width: 80%;
 }
 
 .logo-container-footer{
@@ -2121,7 +2121,9 @@ body.lightmode .card-partner{
     flex-direction: column;
     position: relative;
 }
-
+.swiperPartner .swiper-wrapper {
+    transition-timing-function: linear !important;
+}
 .swiperPartner-overlay{
     position: absolute;
     width: 100%;
@@ -2521,17 +2523,17 @@ body.lightmode .case-studies-content::before{
 }
 
 .case-studies-content.local-business{
-    background-image: url('/assets/images/cobizzer-home.jpg');
+    background-image: url('/assets/images/digital-transformation.jpg');
     width: 56.2%;
 }
 
 .case-studies-content.saas-leads{
-    background-image: url('/assets/images/cobizzer-home.jpg');
+    background-image: url('/assets/images/lead-genration2.jpg');
     width: 42%;
 }
 
 .case-studies-content.ecommerce{
-    background-image: url('/assets/images/cobizzer-home.jpg');
+    background-image: url('/assets/images/growth.jpg');
     width: 42%;
 }
 .case-studies-content.startup-branding{
@@ -2775,7 +2777,7 @@ body.lightmode .case-studies-content::before{
     transition: all 0.4s ease;
 }
 
-.blog-image img {
+.    img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -3076,7 +3078,7 @@ body.lightmode .card-blog{
 /* ================== 35. Guide Components ================== */
 
 .guide-banner{
-    background-image: url('/assets/images/cobizzer-home.jpg');
+    background-image: url('/assets/images/about-image.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
