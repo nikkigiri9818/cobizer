@@ -8,21 +8,19 @@ import TeamSection from "../../Components/Team/Team";
 import GuideBannerSection from "../../Components/Banner/guide";
 import ModalVideoSection from "../../Components/Video/video";
 import DigitalProcessSection from "../../Components/DigitalProcess/digitalstep";
-import TestimonialSection from "../../Components/Testimonial/testimonial";
+import TestimonialSection from "../../Components/Testimonial/newtesti";
 
 function AboutPage(){
     return(
         <>
             <HeadTitle title="About - Cobizzer - Digital Marketing Agency"/>
-            <BannerInnerSection title="About Cobizzer" currentPage="About Us" />
+            {/* <BannerInnerSection title="About Cobizzer" currentPage="About Us" /> */}
             <AboutSection />
             <PartnershipSection />
             <ChooseUsAboutSection />
-            <GuideBannerSection />
             <ModalVideoSection />
             <TeamSection />
-            <DigitalProcessSection />
-            <TestimonialSection />
+            {/* <TestimonialSection /> */}
         </>
     );
 }

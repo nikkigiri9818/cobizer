@@ -12,9 +12,9 @@ function ServicePage(){
             <HeadTitle title="Services - Cobizzer - Digital Marketing Agency" />
             <BannerInnerSection title="Our Services" currentPage="Services" />
             <ServiceSection />
-            <GuideBannerSection />
-            <ModalVideoSection />
-            <PricingPlanSection />
+            {/* <GuideBannerSection /> */}
+            {/* <ModalVideoSection /> */}
+            {/* <PricingPlanSection /> */}
         </>
     );
 }

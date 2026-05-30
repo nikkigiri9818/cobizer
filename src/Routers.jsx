@@ -13,6 +13,12 @@ import BlogPage from "./Page/Blog";
 import ContactPage from "./Page/Contact";
 import SingleServicePage from "./Page/SingleService";
 import SinglePostPage from "./Page/SinglePost";
+import SingleSeo from "./Page/SingleSeo";
+import Seo from "./Page/Seo";
+import PerformanceMarketing from "./Page/PerformanceMarketing";
+import WebDevelopment from "./Page/WebDevelopment";
+import GraphicDesigning from "./Page/GraphicDesigning";
+
 
 function AppRouter(){
     return (
@@ -20,6 +26,11 @@ function AppRouter(){
             <Route path="/" element={<HomePage />}/>
             <Route path="about" element={<AboutPage />}/>
             <Route path="service" element={<ServicePage />}/>
+            <Route path="social-media-marketing-company-in-jaipur" element={<SingleSeo />}/>
+            <Route path="performance-marketing-company-in-jaipur" element={<PerformanceMarketing />}/>
+            <Route path="web-development-company-in-jaipur" element={<WebDevelopment />}/>
+            <Route path="graphics-designing-company-in-jaipur" element={<GraphicDesigning />}/>
+            <Route path="seo-services-in-jaipur" element={<Seo />}/>
             <Route path="single_services" element={<SingleServicePage />}/>
             <Route path="case_studies" element={<CaseStudiesPage />}/>
             <Route path="team" element={<TeamPage />}/>

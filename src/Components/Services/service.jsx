@@ -20,7 +20,7 @@ function ServiceSection(){
 
                             <AnimateOnScroll animation="fadeInDown" speed="normal">
                                 <h2 className="title-heading heading-container heading-container-medium">
-                                    Digital Solutions That Drive Real Results
+                                   Digital Solutions That Drive Real Results
                                 </h2>
                             </AnimateOnScroll>
                         </div>

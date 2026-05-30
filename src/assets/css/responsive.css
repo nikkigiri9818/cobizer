@@ -36,9 +36,9 @@
     .navbar-action-container{
         justify-content: flex-start;
     }
-    .title-heading-banner{
+    /* .title-heading-banner{
         background-image: linear-gradient(340deg, var(--accent-transparent) 10%, var(--primary) 100%);
-    }
+    } */
     .about-img-layout{
         width: 100%;
     }
