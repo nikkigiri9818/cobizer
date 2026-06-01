@@ -11,7 +11,7 @@ function GraphicDesigning(){
     return(
         <>
             <HeadTitle title="GraphicDesigning - Cobizzer - Digital Marketing Agency" />
-            <BannerInnerSection title="Partnership" currentPage="Partnership"/>
+            <BannerInnerSection title="Graphic Designing" currentPage="Partnership"/>
             <ExpertiseSection />
             <PartnershipListSection />
             <GuideBannerSection />
