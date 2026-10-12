@@ -23,7 +23,7 @@ export const blogs = [
         title: "AEO vs SEO: Difference Between AEO and SEO and What Matters in 2026",
         date: "2026-01-30",
         category: "Digital Marketing",
-        image: "https://cobizzer.com/wp-content/uploads/2026/01/AEO-vs-SEO-2026.png", // <- your image here
+        image: "/images/blog/aeo-vs-seo.png", // <- your image here
         excerpt:
             "It's not enough to just type terms into Google and click blue links anymore. People browse the web differently now, and search engines have changed with them.",
         content:
@@ -31,7 +31,7 @@ export const blogs = [
     }),
     make({
         id: 2,
-        slug: "seo-strategies-in-2026-how-businesses-can-rank-higher-and-get-more-traffic",
+        slug: "seo-strategies-in-2026-how-businesses-can-rank-higher",
         title: "SEO Strategies in 2026: How Businesses Can Rank Higher and Get More Traffic",
         date: "2026-01-29",
         category: "Digital Marketing",
@@ -42,7 +42,7 @@ export const blogs = [
     }),
     make({
         id: 3,
-        slug: "top-10-best-performance-marketing-agencies-in-jaipur",
+        slug: "top-10-best-performance-marketing-agencies-in-jaipur-2",
         title: "Top 10 Best Performance Marketing Agencies In Jaipur",
         date: "2025-04-05",
         category: "Performance Marketing",
@@ -53,11 +53,29 @@ export const blogs = [
     }),
     make({
         id: 4,
-        slug: "best-seo-company-in-jaipur-achieve-higher-rankings-on-google",
+        slug: "best-seo-company-in-jaipur",
         title: "Best SEO Company in Jaipur: Achieve Higher Rankings on Google",
         date: "2025-04-04",
         category: "SEO Service",
         image: "/images/blog/best-seo-company-jaipur.png",
+        content: "<p>Add the full article text here.</p>",
+    }),
+    make({
+        id: 5,
+        slug: "graphic-designing-company-in-jaipur-2",
+        title: "Stunning Visuals by DIGIROKET, a Trusted Graphic Designing Company in Jaipur",
+        date: "2025-03-22",
+        category: "Graphic Designing",
+        image: "/images/blog/graphic-designing-jaipur.png",
+        content: "<p>Add the full article text here.</p>",
+    }),
+    make({
+        id: 6,
+        slug: "social-media-agency-in-jaipur",
+        title: "Social Media Management Services by Jaipur's Top Agency",
+        date: "2025-02-27",
+        category: "Social Media Marketing",
+        image: "/images/blog/social-media-agency-jaipur.png",
         content: "<p>Add the full article text here.</p>",
     }),
 ];

@@ -19,8 +19,7 @@ import PerformanceMarketing from "./Page/PerformanceMarketing";
 import WebDevelopment from "./Page/WebDevelopment";
 import GraphicDesigning from "./Page/GraphicDesigning";
 import PPCManagement from "./Page/Pricing";
-
-
+import Blogdetails from "./Components/Blogdetails";
 
 function AppRouter(){
     return (
@@ -42,8 +41,11 @@ function AppRouter(){
             <Route path="Testimonial" element={<TestimonialPage />}/>
             <Route path="faq" element={<FaqPage />}/>
             <Route path="blog" element={<BlogPage />}/>
-            <Route path="blog/:slug" element={<SinglePostPage />}/>
+            {/* <Route path="blog/:slug" element={<SinglePostPage />}/> */}
+
             <Route path="contact" element={<ContactPage />}/>
+         <Route path="/blog/:slug" element={<Blogdetails/>}/>
+
             <Route path="404_page" element={<NotFoundPage />}/>
             <Route path="*" element={<NotFoundPage />}/>
         </Routes>
