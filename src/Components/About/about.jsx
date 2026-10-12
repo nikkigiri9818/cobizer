@@ -1,10 +1,15 @@
 import React from "react";
 import AnimateOnScroll from "../Hooks/AnimateOnScroll";
+import BannerInnerSection from "../Banner/Inner";
+import AboutSectiontwo from "../../Data/Aboutsectiontwo";
+import ContactSection from "../Contact/contact";
 
 function AboutSection(){
 
     return(
-        <div className="section">
+        <>
+        <BannerInnerSection  title="About" currentPage="About-Us" />
+        {/* <div className="section">
             <div className="hero-container">
                 <div className="d-flex flex-column flex-lg-row gspace-5">
                     <div className="about-img-layout">
@@ -40,15 +45,7 @@ function AboutSection(){
                     </div>
                     <div className="about-title">
                         <div className="d-flex flex-column gspace-2">
-                            <AnimateOnScroll animation="fadeInRight" speed="normal">
-                                <div
-                                    className="sub-heading"
-                                >
-                                    <i className="fa-regular fa-circle-dot"></i>
-                                    <span>About Us</span>
-                                </div>
-                            </AnimateOnScroll>
-
+                          
                             <AnimateOnScroll animation="fadeInRight" speed="normal">
                                 <h2 className="title-heading">Who We Are & What Drives Us</h2>
                             </AnimateOnScroll>
@@ -83,7 +80,10 @@ function AboutSection(){
                     </div>
                     </div>
             </div>
-        </div>
+        </div> */}
+        <AboutSectiontwo/>
+        <ContactSection/>
+        </>
 
     );
 }

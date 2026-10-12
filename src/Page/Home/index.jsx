@@ -15,6 +15,7 @@ import NewsletterSection from "../../Components/Form/Newsletter";
 import BlogSection from "../../Components/Blog/blog";
 import CustomImage from "../../Components/Custom/customImage";
 import TeamSection from "../../Components/Team/Team";
+import FaqSection from "../../Data/FaqSection";
 function HomePage(){
     return(
         <>
@@ -31,8 +32,11 @@ function HomePage(){
             <DigitalProcessSection />
               <TeamSection/>
             {/* <PricingPlanSection /> */}
-            <NewsletterSection />
             <BlogSection />
+                        <FaqSection/>
+                                                <NewsletterSection />
+
+
         </>
     );
 }

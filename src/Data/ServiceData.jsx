@@ -37,7 +37,7 @@ export const services = [
         title: "PPC Management Services",
         content: "Cobizzer's PPC management makes sure that the appropriate people see your advertising at the correct moment.",
         speed: "normal",
-        link: "branding-design",
+        link: "ppc-management",
     },
     {
         id: 6,

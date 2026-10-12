@@ -40,12 +40,12 @@ const Footer = () => {
                                 <div className="footer-services-container">
                                     <h5>Services</h5>
                                     <ul className="footer-list">
-                                        <li><a href="/single_services">Social Media Marketing</a></li>
-                                        <li><a href="/single_services">SEO Optimization</a></li>
-                                        <li><a href="/single_services">PPC Advertising</a></li>
-                                        <li><a href="/single_services">Content Marketing</a></li>
-                                        <li><a href="/single_services">Branding Strategy</a></li>
-                                        <li><a href="/single_services">Email Marketing</a></li>
+                                        <li><a href="/social-media-marketing-company-in-jaipur">Social Media Marketing</a></li>
+                                        <li><a href="/seo-services-in-jaipur">SEO Optimization</a></li>
+                                        <li><a href="/ppc-management">PPC Advertising</a></li>
+                                        <li><a href="/graphics-designing-company-in-jaipur">Graphics Designing</a></li>
+                                        <li><a href="/web-development-company-in-jaipur">Web Development</a></li>
+                                        <li><a href="/performance-marketing-company-in-jaipur">Performance Marketing</a></li>
                                     </ul>
                                 </div>
                             </div>

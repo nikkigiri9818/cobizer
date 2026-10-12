@@ -18,6 +18,8 @@ import Seo from "./Page/Seo";
 import PerformanceMarketing from "./Page/PerformanceMarketing";
 import WebDevelopment from "./Page/WebDevelopment";
 import GraphicDesigning from "./Page/GraphicDesigning";
+import PPCManagement from "./Page/Pricing";
+
 
 
 function AppRouter(){
@@ -30,6 +32,7 @@ function AppRouter(){
             <Route path="performance-marketing-company-in-jaipur" element={<PerformanceMarketing />}/>
             <Route path="web-development-company-in-jaipur" element={<WebDevelopment />}/>
             <Route path="graphics-designing-company-in-jaipur" element={<GraphicDesigning />}/>
+            <Route path="/ppc-management" element={<PricingPage/>}></Route>
             <Route path="seo-services-in-jaipur" element={<Seo />}/>
             <Route path="single_services" element={<SingleServicePage />}/>
             <Route path="case_studies" element={<CaseStudiesPage />}/>

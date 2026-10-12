@@ -16,6 +16,8 @@ import BlogSection from "../../Components/Blog/blog";
 import CustomImage from "../../Components/Custom/customImage";
 import TeamSection from "../../Components/Team/Team";
 import BannerInnerSection from "../../Components/Banner/Inner";
+import FaqSection from "../../Data/FaqSection";
+import ContactSection from "../../Components/Contact/contact";
 function SingleSmm(){
     return(
         <>
@@ -23,6 +25,8 @@ function SingleSmm(){
              <BannerInnerSection title="Social Media Marketing" currentPage="Services Details" />
             <ExpertiseSection />
             <ServiceSection />
+            <FaqSection/>
+            <ContactSection/>
 
         </>
     );
