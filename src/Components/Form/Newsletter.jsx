@@ -456,7 +456,7 @@ function NewsletterSection() {
                 }
             `}</style>
 
-            <div className="hero-container">
+            <div className="hero-container" style={{maxWidth:"1900px"}}>
                 <div className="cbz-nl-card" ref={cardRef} onMouseMove={handleMouseMove}>
                     <span className="cbz-nl-grid"></span>
                     <span className="cbz-nl-blob b1"></span>

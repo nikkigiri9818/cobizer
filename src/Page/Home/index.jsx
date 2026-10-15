@@ -5,17 +5,16 @@ import ExpertiseSection from "../../Components/Expertise/expertise";
 import ChooseUsSection from "../../Components/ChooseUs/choose";
 import GuideBannerSection from "../../Components/Banner/guide";
 import ModalVideoSection from "../../Components/Video/video";
-import ServiceSection from "../../Components/Services/service";
 import CaseStudiesSection from "../../Components/CaseStudies/CaseStudies";
 import TestimonialSection from "../../Components/Testimonial/testimonial";
 import DigitalProcessSection from "../../Components/DigitalProcess/digitalstep";
-import PricingPlanSection from "../../Components/Pricing/Pricing";
 import PartnershipSection from "../../Components/Partnership/Partnership";
 import NewsletterSection from "../../Components/Form/Newsletter";
-import BlogSection from "../../Components/Blog/blog";
-import CustomImage from "../../Components/Custom/customImage";
+
 import TeamSection from "../../Components/Team/Team";
 import FaqSection from "../../Data/FaqSection";
+import HomeBlogSection from "../../Data/Homeblogsections";
+import Homesercicesections from "../../Data/Homesercicesections";
 function HomePage(){
     return(
         <>
@@ -26,13 +25,13 @@ function HomePage(){
             <ChooseUsSection />
             <GuideBannerSection />
             <ModalVideoSection />
-            <ServiceSection />
+            <Homesercicesections/>
             <CaseStudiesSection noPadding={true} />
             <TestimonialSection />
             <DigitalProcessSection />
               <TeamSection/>
             {/* <PricingPlanSection /> */}
-            <BlogSection />
+            <HomeBlogSection/>
                         <FaqSection/>
                                                 <NewsletterSection />
 

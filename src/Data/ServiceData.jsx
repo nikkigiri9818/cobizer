@@ -1,7 +1,7 @@
 export const services = [
     {
         id: 1,
-        icon: "/assets/images/Icon-7.png",
+        icon: "/assets/images/socalmediamarketing.svg",
         title: "Social Media Marketing",
         content: "Grow your brand presence and connect with your audience through powerful social media strategies.",
         speed: "slow",
@@ -9,7 +9,8 @@ export const services = [
     },
     {
         id: 2,
-        icon: "/assets/images/digital-marketing-icons-F4LJ4W8.png",
+       
+        icon: "/assets/images/seo.svg",
         title: "Search Engine Optimisation",
         content: "Our SEO process focuses on keyword research, content improvement, technical fixes, and link building.",
         speed: "normal",
@@ -17,7 +18,7 @@ export const services = [
     },
     {
         id: 3,
-        icon: "/assets/images/Icon-8.png",
+        icon: "/assets/images/permarketing.svg",
         title: "Performance Marketing Services",
         content: "At Cobizzer, we create campaigns that help you get more sales, leads, and customers.",
         speed: "fast",
@@ -25,7 +26,7 @@ export const services = [
     },
     {
         id: 4,
-        icon: "/assets/images/Icon-5.png",
+        icon: "/assets/images/graphic.svg",
         title: "Graphics Designing Services",
         content: "Our graphics designing services in Jaipur help your brand look strong and memorable.",
         speed: "slow",
@@ -33,7 +34,7 @@ export const services = [
     },
     {
         id: 5,
-        icon: "/assets/images/Icon-6.png",
+        icon: "/assets/images/ppc.svg",
         title: "PPC Management Services",
         content: "Cobizzer's PPC management makes sure that the appropriate people see your advertising at the correct moment.",
         speed: "normal",
@@ -41,7 +42,7 @@ export const services = [
     },
     {
         id: 6,
-        icon: "/assets/images/Icon-4.png",
+        icon: "/assets/images/webp.avif",
         title: "Web Development",
         content: "Develop modern, responsive, and high-performing websites tailored to your business needs.",
         speed: "fast",

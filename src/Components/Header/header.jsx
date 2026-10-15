@@ -13,7 +13,7 @@ return (
                 <div className="logo-container">
                     <NavLink className="navbar-brand" to="/">
                     <img
-                        src="/assets/images/marko-logo.png"
+                        src="/assets/images/cobizzer.png"
                         className="site-logo img-fluid"
                         alt="Logo"
                     />

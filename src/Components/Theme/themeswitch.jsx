@@ -21,7 +21,7 @@ export default function ThemeSwitcher() {
                 localStorage.setItem('lightmode', 'active');
     
                 siteLogos.forEach((logo) => {
-                    logo.setAttribute('src', 'assets/images/cobizzer.png');
+                    logo.setAttribute('src', '/assets/images/cobizzer.png');
                 });
     
                 partnerLogos.forEach((img) => {
@@ -35,7 +35,7 @@ export default function ThemeSwitcher() {
                 localStorage.removeItem('lightmode');
     
                 siteLogos.forEach((logo) => {
-                    logo.setAttribute('src', 'assets/images/cobizzer-logo-white.png');
+                    logo.setAttribute('src', '/assets/images/cobizzer-logo-white.png');
                 });
     
                 partnerLogos.forEach((img) => {
