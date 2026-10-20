@@ -1,9 +1,11 @@
+
 export const testimonials = [
     {
         id: 1,
         name: "Aarav Sharma",
         title: "CEO, NexaTech India",
-        content: "Their team completely transformed our digital presence. We saw a huge increase in leads and customer engagement within months.",
+        content:
+            "Their team has completely revamped our online presence. We experienced dramatic growth in leads and customer engagement in a matter of months.",
         rating: 5,
         image: "/assets/images/reviewer-1.jpg",
     },
@@ -11,7 +13,8 @@ export const testimonials = [
         id: 2,
         name: "Priya Mehta",
         title: "Marketing Director",
-        content: "Professional, creative, and highly responsive. Their marketing strategies delivered measurable growth for our business.",
+        content:
+            "Responsive, creative and professional. They provided tangible growth in our business through their marketing strategies.",
         rating: 5,
         image: "/assets/images/reviewer-2.jpg",
     },
@@ -19,7 +22,8 @@ export const testimonials = [
         id: 3,
         name: "Rohan Verma",
         title: "Founder, Glowify",
-        content: "From SEO to branding, every service exceeded our expectations. Our online visibility and conversions improved dramatically.",
+        content:
+            "All services were above our expectations, from SEO to branding. Our online visibility and conversions were great!",
         rating: 5,
         image: "/assets/images/reviewer-6.jpg",
     },
@@ -27,7 +31,8 @@ export const testimonials = [
         id: 4,
         name: "Ananya Kapoor",
         title: "COO, BrightWave",
-        content: "Their expertise and dedication helped us build a strong digital identity. The entire process was smooth and result-driven.",
+        content:
+            "They were able to help us develop a solid online presence, thanks to their experience and commitment. This was done without any difficulty and it was successful.",
         rating: 5,
         image: "/assets/images/reviewer-3.jpg",
     },
@@ -35,7 +40,8 @@ export const testimonials = [
         id: 5,
         name: "Vikram Singh",
         title: "Brand Manager",
-        content: "Excellent communication and amazing creativity. Our social campaigns performed far beyond what we expected.",
+        content:
+            "Very good communication and out-of-the-box inventiveness. Our social campaigns were so successful that they surpassed our expectations.",
         rating: 5,
         image: "/assets/images/reviewer-7.jpg",
     },
@@ -43,7 +49,8 @@ export const testimonials = [
         id: 6,
         name: "Sneha Patel",
         title: "Startup Founder",
-        content: "The website they developed for us is fast, modern, and user-friendly. We’ve received fantastic feedback from clients.",
+        content:
+            "The website they created for us is quick, contemporary and easy to use. Our clients have been very positive about us.",
         rating: 5,
         image: "/assets/images/reviewer-4.jpg",
     },
@@ -51,7 +58,8 @@ export const testimonials = [
         id: 7,
         name: "Aditya Joshi",
         title: "E-commerce Owner",
-        content: "Their paid advertising strategy boosted our sales significantly. We finally started seeing real ROI from digital marketing.",
+        content:
+            "Their marketing through paid ads greatly contributed to our sales. I was finally able to see the ROI from digital marketing.",
         rating: 5,
         image: "/assets/images/reviewer-8.jpg",
     },
@@ -59,7 +67,8 @@ export const testimonials = [
         id: 8,
         name: "Kavya Nair",
         title: "Creative Director",
-        content: "A reliable and talented team that truly understands branding. They helped us stand out in a competitive market.",
+        content:
+            "An effective and competent staff that knows branding inside and out. They assisted us in being noticeable in a competitive market.",
         rating: 5,
         image: "/assets/images/reviewer-5.jpg",
     },

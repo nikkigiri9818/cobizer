@@ -16,7 +16,8 @@ function GuideBannerSection(){
                                 </div> */}
                                 <div className="d-flex flex-column gspace-2">
                                     <h3 className="title-heading">Transform Your Business with Cobizzer!</h3>
-                                    <p>Take your digital marketing to the next level with data-driven strategies and innovative solutions. Let's create something amazing together!</p>
+                                    <p>Take your digital marketing to the next level with data driven approaches and innovative solutions. We are one of the top digital marketing agencies in Jaipur that help brands grow properly with custom made digital strategies.
+</p>
                                 </div>
                             </div>
                         </AnimateOnScroll>

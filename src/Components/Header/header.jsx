@@ -56,121 +56,7 @@ return (
                             </NavLink>
                         </li>
 
-                        {/* <li className="nav-item dropdown">
-                            <a
-                            className={`nav-link dropdown-toggle ${
-                                isDropdownActive(["/service", "/single_services"])
-                                ? "active"
-                                : ""
-                            }`}
-                            href="#"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                            >
-                            Services <i className="fa-solid fa-angle-down accent-color"></i>
-                            </a>
-                            <ul className="dropdown-menu">
-                                <li>
-                                    <NavLink to="/service" className="dropdown-item">
-                                        Service
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink to="/single_services" className="dropdown-item">
-                                        Single Services
-                                    </NavLink>
-                                </li>
-                            </ul>
-                        </li> */}
-
-                        {/* <li className="nav-item dropdown">
-                            <a
-                            className={`nav-link dropdown-toggle ${
-                                isDropdownActive([
-                                "/case_studies",
-                                "/team",
-                                "/partnership",
-                                "/pricing",
-                                "/testimonial",
-                                "/faq",
-                                "/404_page",
-                                ])
-                                ? "active"
-                                : ""
-                            }`}
-                            href="#"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                            >
-                            Pages <i className="fa-solid fa-angle-down accent-color"></i>
-                            </a>
-                            <ul className="dropdown-menu">
-                            <li>
-                                <NavLink to="/case_studies" className="dropdown-item">
-                                    Case Studies
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/team" className="dropdown-item">
-                                    Our Team
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/partnership" className="dropdown-item">
-                                    Partnership
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/pricing" className="dropdown-item">
-                                    Pricing Plan
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/testimonial" className="dropdown-item">
-                                    Testimonial
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/faq" className="dropdown-item">
-                                    FAQs
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/404_page" className="dropdown-item">
-                                    Error 404
-                                </NavLink>
-                            </li>
-                            </ul>
-                        </li> */}
-
-                        {/* Archive Dropdown */}
-                        {/* <li className="nav-item dropdown">
-                            <a
-                            className={`nav-link dropdown-toggle ${
-                                isDropdownActive(["/blog", "/single_post"]) ? "active" : ""
-                            }`}
-                            href="#"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                            >
-                            Archive <i className="fa-solid fa-angle-down accent-color"></i>
-                            </a>
-                            <ul className="dropdown-menu">
-                                <li>
-                                    <NavLink to="/blog" className="dropdown-item">
-                                        Blog
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink to="/single_post" className="dropdown-item">
-                                        Single Post
-                                    </NavLink>
-                                </li>
-                            </ul>
-                        </li> */}
+                       
 
                         <li className="nav-item">
                             <NavLink to="/contact" className="nav-link">
@@ -185,12 +71,28 @@ return (
                     <div className="navbar-action-button">
                         <ThemeSwitcher />
                     </div>
-                    <div className="navbar-icon-wrapper">
+                    {/* <div className="navbar-icon-wrapper">
                         <div className="icon-circle">
                             <i className="fa-solid fa-phone-volume"></i>
                         </div>
                         <a className ="header-num" href="tel:7220018888"><h6>+91- 7220018888</h6></a>
-                    </div>
+                    </div> */}
+
+<div className="navbar-icon-wrapper">
+    <a
+        href="tel:7220018888"
+        className="navbar-call-link"
+        aria-label="Call us"
+    >
+        <div className="icon-circle">
+            <i className="fa-solid fa-phone-volume"></i>
+        </div>
+    </a>
+    <a className="header-num" href="tel:7220018888">
+        <h6>+91- 7220018888</h6>
+    </a>
+</div>
+
                 </div>
             </div>
         </nav>

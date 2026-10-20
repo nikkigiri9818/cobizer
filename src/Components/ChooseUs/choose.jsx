@@ -31,7 +31,8 @@ function ChooseUsSection(){
                                             <span>Why Choose Marko</span>
                                         </div>
                                         <h2 className="title-heading">Your Success is Our Mission</h2>
-                                        <p className="mb-0">In the fast-paced digital world, choosing the right marketing partner makes all the difference. At Marko, we don’t just create campaigns—we craft strategies that deliver measurable success.</p>
+                                        <p className="mb-0">In the fast paced digital world, the right marketing partner can make a difference. We don't just develop campaigns; we build strategies that have measurable outcomes at Cobizzer. Your business growth is our top priority and as a trusted digital marketing company in Jaipur, we are doing our best to help you achieve it.
+</p>
                                     </div>
                                 </AnimateOnScroll>
                                 <div className="image-container">

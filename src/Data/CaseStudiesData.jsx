@@ -2,7 +2,7 @@ export const caseStudiesData = [
     {
 		id: 1,
 		title: "Local Business Digital Transformation",
-		description: "5x ROI on social media campaigns & 80% increase in engagement...",
+		description: "80% higher engagement rates and 5x better ROI for social media campaigns with smart digital marketing strategies.",
 		tags:  ["Social Media", "Google Ads", "Local SEO", "Video", "Retargeting", "Community"],
 		className: "local-business",
 		size: "large",
@@ -10,7 +10,7 @@ export const caseStudiesData = [
     {
 		id: 2,
 		title: "SaaS Lead Generation Success",
-		description: "150% increase in qualified leads & 70% lower customer acquisition cost.",
+		description: "70% lower customer acquisition cost and 150% higher in qualified leads.",
 		tags: ["Content", "LinkedIn Ads", "Email", "Webinar", "CRM", "Landing Pages"],
 		className: "saas-leads",
 		size: "small",
@@ -18,7 +18,7 @@ export const caseStudiesData = [
     {
 		id: 3,
 		title: "E-Commerce Growth Boost",
-		description: "3x increase in organic traffic & 2x revenue growth in 6 months...",
+		description: "Improved website traffic by 3x and sales by 2x in only six months through SEO and paid marketing.",
 		tags: ["SEO", "PPC Ads", "CRO", "Analytics", "Influencer", "Email"],
 		className: "ecommerce",
 		size: "small",
@@ -26,7 +26,7 @@ export const caseStudiesData = [
     {
 		id: 4,
 		title: "Startup Brand Awareness Expansion",
-		description: "200% increase in brand mentions & 60% higher engagement rates...",
+		description: "Improved engagement rates by 60% and brand mentions up by 200% with proper brand-centric campaigns.",
         tags: ["Branding", "PR", "UGC", "Media", "Growth", "Viral Campaigns"],
 		className: "startup-branding",
 		size: "large",

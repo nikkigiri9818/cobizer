@@ -2,37 +2,25 @@ import React, { useEffect, useRef, useState } from "react";
 
 const faqs = [
     {
-        q: "What digital marketing services does Cobizzer offer?",
-        a: "We offer SEO, Google Ads, social media marketing, website development, and lead generation campaigns. We combine these services based on your business goals so every rupee works towards real growth.",
+        q: "Why choose Cobizzer as your Digital Marketing Agency in Jaipur?",
+        a: "Cobizzer specializes in measurable business growth, specifically in the area of SEO, social media marketing, PPC, content marketing and web development.",
     },
     {
-        q: "Do you work with local businesses in Jaipur?",
-        a: "Yes. Local businesses in Jaipur and across Rajasthan are a big part of our work. We focus on local SEO, Google Business Profile optimization, and ads that reach customers near you.",
+        q: "What services does your digital marketing company in Jaipur provide?",
+        a: "Our SEO, social media marketing, PPC advertising, performance marketing, website development, graphic design and content marketing services are all provided by our marketing company.",
     },
     {
-        q: "How long does SEO take to show results?",
-        a: "SEO is a long-term strategy. You can usually see early improvements in 2-3 months, with stronger growth in 4-6 months or more. The timeline depends on your competition and your website's current condition.",
+        q: "How can a Digital Marketing Agency in Jaipur help my business grow?",
+        a: "A professional agency can help you get more value online, more quality leads, better conversion rates and a better online presence.",
     },
-    // {
-    //     q: "How much budget do I need for paid ads?",
-    //     a: "It depends on your industry, location, and goals. We first understand your needs and then suggest a realistic budget. Your ad spend and our service fee are always kept separate and transparent.",
-    // },
-    // {
-    //     q: "Do you focus on likes and followers or real results?",
-    //     a: "We focus on business results: leads, enquiries, conversions, and revenue. Likes and reach only matter when they turn into growth for your business.",
-    // },
-    // {
-    //     q: "Will I get regular reports on my campaigns?",
-    //     a: "Yes. You receive clear, regular reports showing what we did, how many leads came in, and what the next steps are, so you always know where your money is going.",
-    // },
-
+    
     {
-        q: "Can you build a new website for my business?",
-        a: "Absolutely. We build fast, mobile-friendly, SEO-ready websites and landing pages designed to turn visitors into customers.",
+        q: "How long does it take to see results from digital marketing?",
+        a: "It all depends on the methods and planning used in marketing. While SEO normally takes a few months, PPC can provide fast results.",
     },
     {
-        q: "How do I get started with Cobizzer?",
-        a: "Simply book a free consultation call. We will understand your business, goals, and current online presence, then share a clear plan and proposal with you.",
+        q: "Is Cobizzer suitable for startups and established businesses?",
+        a: "Yes. We are a trusted digital marketing company in Jaipur and develop custom made strategies for startups, SMEs and large companies.",
     },
 ];
 

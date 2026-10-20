@@ -44,7 +44,9 @@ function ServiceSection() {
 
                         <div className="service-link-footer">
                             <p>
-                                Need a custom solution? Let&apos;s create a strategy tailored for your business.
+                                {/* Need a custom solution? Let&apos;s create a strategy tailored for your business. */}
+                                Looking for a personalized solution? Let's develop a strategy that's specific to your business.
+
                                 <a href="./contact"> Get a Free Strategy Call</a>
                             </p>
                         </div>

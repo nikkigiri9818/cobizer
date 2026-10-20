@@ -601,7 +601,7 @@ body.lightmode .form select{
     border: 1px solid var(--accent-color-3);
     background-color: var(--accent-color-4);
     padding: 15px 30px 15px 30px;
-    border-radius: var(--global-border-radius);
+    /* border-radius: var(--global-border-radius); */
    
 }
 
@@ -729,7 +729,7 @@ body:not(.lightmode) .logo-container-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px 20px 20px;
+    /* padding: 20px 20px 20px 20px; */
 }
 
 .sidebar-header .logo {
@@ -1356,7 +1356,7 @@ body.lightmode .banner-layout-wrapper::before {
     background-image: radial-gradient(at top left, var(--accent-color-3), var(--secondary) 50%);
     gap: 0px 50px;
     border-radius: var(--global-border-radius);
-    padding: 120px 20px 0px 20px;
+    padding: 50px 20px 0px 20px;
     position: relative;
     width: 100%;
     z-index: 1;
@@ -3443,7 +3443,7 @@ body.lightmode .newsletter-layout{
     position: relative;
     background-color: var(--accent-color);
     color: var(--primary);
-    font-size: var(--font-size-6xl);
+    font-size: 24px;
     width: 59px;
     height: 59px;
     border-radius: 50%;
