@@ -4075,7 +4075,7 @@ body.lightmode .accordion-button:not(.collapsed)::after{
     width: 100%;
     line-height: 1;
     height: 400px;
-    filter: brightness(69%) contrast(200%) saturate(0%) blur(0px) hue-rotate(0deg);
+    /* filter: brightness(69%) contrast(200%) saturate(0%) blur(0px) hue-rotate(0deg); */
     border-radius: var(--global-border-radius);
     overflow: hidden;
 }
