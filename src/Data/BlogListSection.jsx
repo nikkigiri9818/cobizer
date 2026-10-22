@@ -470,7 +470,7 @@ function BlogCtaSection() {
                                         <i className="fa-solid fa-arrow-right"></i>
                                     </span>
                                 </a>
-                                <a href="./services" className="cbz-bc-link">
+                                <a href="./service" className="cbz-bc-link">
                                     View our services <i className="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>

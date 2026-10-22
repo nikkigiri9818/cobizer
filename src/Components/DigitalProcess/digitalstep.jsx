@@ -264,7 +264,7 @@ const DigitalProcessSection = () => {
 
                 .cbz-dp-num{
                     position: relative;
-                    width: 56px; height: 56px;
+                    width: 45px; height: 45px;
                     display: flex;
                     align-items: center;
                     justify-content: center;

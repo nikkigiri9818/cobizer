@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const ACCESS_KEY = "8f238d73-4ed8-436a-8f16-44c8e09f7859";
 
@@ -31,7 +32,7 @@ const popupStyles = `
     max-width: 580px;
     max-height: 96vh;
     overflow-y: auto;
-    padding: 20px 22px;
+    padding: 40px 42px;
     animation: cpSlide 0.3s ease;
   }
   .cp-modal .cp-title {
@@ -139,6 +140,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
   const [successVisible, setSuccessVisible] = useState(false);
   const [errorVisible, setErrorVisible] = useState(false);
   const [errorText, setErrorText] = useState("");
+  const navigate = useNavigate()
 
   // Lock body scroll + close on Esc
   useEffect(() => {
@@ -195,6 +197,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
         setTimeout(() => {
           setSuccessVisible(false);
           onClose();
+          navigate("/thank-you")
         }, 2500);
       } else {
         showError("Oops! Something went wrong. Please try again.");
@@ -276,7 +279,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
                   pattern="[0-9+\- ]{10,15}"
                   required
                 />
-                <svg
+                {/* <svg
                   className="cp-flag"
                   viewBox="0 0 22 15"
                   xmlns="http://www.w3.org/2000/svg"
@@ -293,7 +296,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
                     stroke="#000080"
                     strokeWidth="0.5"
                   />
-                </svg>
+                </svg> */}
               </div>
             </div>
 

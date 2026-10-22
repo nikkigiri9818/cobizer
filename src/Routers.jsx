@@ -20,6 +20,7 @@ import WebDevelopment from "./Page/WebDevelopment";
 import GraphicDesigning from "./Page/GraphicDesigning";
 import PPCManagement from "./Page/Pricing";
 import Blogdetails from "./Components/Blogdetails";
+import ThankYou from "./Page/Thank-you";
 
 function AppRouter(){
     return (
@@ -45,6 +46,7 @@ function AppRouter(){
 
             <Route path="contact" element={<ContactPage />}/>
          <Route path="/blog/:slug" element={<Blogdetails/>}/>
+         <Route path="/thank-you" element={<ThankYou/>}/>
 
             <Route path="404_page" element={<NotFoundPage />}/>
             <Route path="*" element={<NotFoundPage />}/>

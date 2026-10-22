@@ -196,7 +196,7 @@ const bannerCss = `
 
   .hero-chips {
     gap: 8px;
-    justify-content: center;
+    // justify-content: center;
   }
 
   .hero-chip {

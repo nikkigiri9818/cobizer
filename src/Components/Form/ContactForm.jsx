@@ -109,6 +109,7 @@
 
 
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const ACCESS_KEY = "8f238d73-4ed8-436a-8f16-44c8e09f7859";
 
@@ -175,6 +176,7 @@ const ContactForm = () => {
   const [successMessageVisible, setSuccessMessageVisible] = useState(false);
   const [errorMessageVisible, setErrorMessageVisible] = useState(false);
   const [errorText, setErrorText] = useState("Oops! Please enter a valid email.");
+  const navigate = useNavigate()
 
   const validateEmail = (email) => {
     const pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -230,6 +232,7 @@ const ContactForm = () => {
         setEmail("");
         setBrief("");
         setServices([]);
+        navigate("/thank-you")
         setTimeout(() => setSuccessMessageVisible(false), 3000);
       } else {
         showError("Oops! Something went wrong. Please try again.");

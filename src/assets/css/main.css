@@ -1073,7 +1073,7 @@ body.lightmode .keep-dark .btn-accent{
     display: flex;
     flex-direction: column;
     padding: 120px 20px 120px 20px;
-    border-radius: var(--global-border-radius);
+    /* border-radius: var(--global-border-radius); */
     border: 1px solid var(--accent-color-3);
     position: relative;
     overflow: hidden;
@@ -3444,8 +3444,8 @@ body.lightmode .newsletter-layout{
     background-color: var(--accent-color);
     color: var(--primary);
     font-size: 24px;
-    width: 59px;
-    height: 59px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     aspect-ratio: 1/1;
     display: flex;
@@ -3753,10 +3753,12 @@ a.header-num { color: #fff; }
 
 .chooseus-title{
     color: var(--primary);
+    width: 360px;
 }
 
 .chooseus-content p{
     margin-bottom: 14.4px;
+    width: 300px;
 }
 
 .chooseus-img{
